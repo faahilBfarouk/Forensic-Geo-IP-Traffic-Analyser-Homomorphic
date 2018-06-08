@@ -12,6 +12,7 @@ git clone https://github.com/faahilBfarouk/Forensic-Geo-IP-Traffic-Analyser-.git
 cd Forensic-Geo-IP-Traffic-Analyser-
 
 chmod +x install.sh 
+
 ./install.sh
 
 done!!
