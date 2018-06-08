@@ -25,4 +25,4 @@ you can run it by using forensicGeoIP -F demo.pcap -l
 
 you can save the output using -o option
 
-forensicGeoIP -F demo.pcap -l -o outpu.txt
+forensicGeoIP -F demo.pcap -l -o output.txt
