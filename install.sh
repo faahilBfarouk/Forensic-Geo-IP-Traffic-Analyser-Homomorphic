@@ -9,6 +9,7 @@ sudo apt-get install python-pip
 sudo pip install dpkt
 sudo pip install python-geoip
 sudo pip install python-geoip-geolite2sudo chmod +x forensicGeoIP.py
+sudo chmod +x forensicGeoIP.py
 sudo cp forensicGeoIP.py /usr/bin/forensicGeoIP
 echo "******* Done *******"
 echo "This is a tool to geo locate all the packet traffic in your network from apacket capture file (typically captured using wireshark in .pcap format)"
