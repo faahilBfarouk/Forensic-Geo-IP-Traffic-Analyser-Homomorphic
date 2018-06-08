@@ -16,3 +16,13 @@ chmod +x install.sh
 ./install.sh
 
 done!!
+
+# Demo
+
+I have put up a demo traffic capture file called demo.pcap
+
+you can run it by using forensicGeoIP -F demo.pcap -l
+
+you can save the output using -o option
+
+forensicGeoIP -F demo.pcap -l -o outpu.txt
