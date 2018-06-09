@@ -47,7 +47,7 @@ def printPcap(pcap,flag,out):
 
 
 def main():
-        parser=optparse.OptionParser(usage="usage: geoLoc [options] -F <file_name.pcap> [-o <output file>]")
+        parser=optparse.OptionParser(usage="usage: forensicGeoIP [options] -F <file_name.pcap> [-o <output file>]")
         parser.add_option('-F', dest='fileName',type='string',help = 'the .pcap file to use')
         parser.add_option('-l',dest='lat',action='store_true',help='choose to view latitude and longitude')
         parser.add_option('-o',dest='out',help='the output file')
