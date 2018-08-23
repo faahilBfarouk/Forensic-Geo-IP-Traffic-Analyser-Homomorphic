@@ -8,7 +8,7 @@ sudo apt-get install python
 sudo apt-get install python-pip
 sudo pip install dpkt
 sudo pip install python-geoip
-sudo pip install python-geoip-geolite2sudo chmod +x forensicGeoIP.py
+sudo pip install python-geoip-geolite2
 sudo chmod +x forensicGeoIP.py
 sudo cp forensicGeoIP.py /usr/bin/forensicGeoIP
 echo "******* Done *******"
